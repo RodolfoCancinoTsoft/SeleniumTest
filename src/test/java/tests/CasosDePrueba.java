@@ -147,19 +147,6 @@ public class CasosDePrueba {
 
     public void CP006_Tipos_Pruebas_Xpath() throws InterruptedException {
 
-        By localizadorBtnIniciaSeccion = By.xpath("//span[text() = 'Iniciar sesión']");
-        Thread.sleep(2000);
-        WebElement btnInicioSesion = driver.findElement(localizadorBtnIniciaSeccion);
-        Thread.sleep(2000);
-        btnInicioSesion.click();
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//button[@data-testid= 'phone-login']")).click();
 
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//input[@id='phonelogin-phonenumber']")).sendKeys("64661455");
-        wait.until(ExpectedConditions.titleIs("Iniciar sesión - Spotify"));
-        //String tituloPagina = driver.getTitle();
-        //System.out.println(tituloPagina);
-        //Assert.assertEquals(driver.getTitle(),"Iniciar sesión - Spotify");
     }
 }
