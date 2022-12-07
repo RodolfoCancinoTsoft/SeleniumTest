@@ -145,7 +145,7 @@ public class CasosDePrueba {
 
     @Test
 
-    public void CP006_Tipos_Pruebas_Xpath() throws InterruptedException {
+    public void CP006_Tipos_Pruebas_Xpath(){
 
 
     }
