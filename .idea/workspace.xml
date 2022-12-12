@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a6d897f-e3d9-4007-8e2c-fbd8fcb35e7a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +45,8 @@
       <recent name="C:\Users\rodolfo.cancino\Desktop\SeleniumPrimeroPasos\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CasosDePrueba.CP006_Tipos_Pruebas_Xpath">
-    <configuration name="CasosDePrueba.CP002_Inicio_Seccion_Google" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CasosDePrueba.CP010_Inicio_Seccion_Google_Xpath">
+    <configuration name="CasosDePrueba.CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimeroPasos" />
       <extension name="coverage">
         <pattern>
@@ -55,7 +56,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP002_Inicio_Seccion_Google" />
+      <option name="METHOD_NAME" value="CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -63,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP003_Inicio_Seccion_Facebook" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.CP007_Inicio_Seccion_Apple_Xpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimeroPasos" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +74,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP003_Inicio_Seccion_Facebook" />
+      <option name="METHOD_NAME" value="CP007_Inicio_Seccion_Apple_Xpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP004_Inicio_Seccion_Apple" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.CP008_Inicio_Seccion_Apple_Xpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimeroPasos" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +92,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP004_Inicio_Seccion_Apple" />
+      <option name="METHOD_NAME" value="CP008_Inicio_Seccion_Apple_Xpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP005_Inicio_Seccion_Numero_Telefono" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.CP009_Inicio_Seccion_Google_Xpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimeroPasos" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +110,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP005_Inicio_Seccion_Numero_Telefono" />
+      <option name="METHOD_NAME" value="CP009_Inicio_Seccion_Google_Xpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP006_Tipos_Pruebas_Xpath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.CP010_Inicio_Seccion_Google_Xpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimeroPasos" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP006_Tipos_Pruebas_Xpath" />
+      <option name="METHOD_NAME" value="CP010_Inicio_Seccion_Google_Xpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CasosDePrueba.CP006_Tipos_Pruebas_Xpath" />
-        <item itemvalue="TestNG.CasosDePrueba.CP005_Inicio_Seccion_Numero_Telefono" />
-        <item itemvalue="TestNG.CasosDePrueba.CP004_Inicio_Seccion_Apple" />
-        <item itemvalue="TestNG.CasosDePrueba.CP003_Inicio_Seccion_Facebook" />
-        <item itemvalue="TestNG.CasosDePrueba.CP002_Inicio_Seccion_Google" />
+        <item itemvalue="TestNG.CasosDePrueba.CP010_Inicio_Seccion_Google_Xpath" />
+        <item itemvalue="TestNG.CasosDePrueba.CP009_Inicio_Seccion_Google_Xpath" />
+        <item itemvalue="TestNG.CasosDePrueba.CP008_Inicio_Seccion_Apple_Xpath" />
+        <item itemvalue="TestNG.CasosDePrueba.CP007_Inicio_Seccion_Apple_Xpath" />
+        <item itemvalue="TestNG.CasosDePrueba.CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista" />
       </list>
     </recent_temporary>
   </component>
@@ -166,16 +167,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ejemploSelenium/HolaMundoSelenium.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

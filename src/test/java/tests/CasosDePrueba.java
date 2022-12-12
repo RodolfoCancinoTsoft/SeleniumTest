@@ -145,8 +145,72 @@ public class CasosDePrueba {
 
     @Test
 
-    public void CP006_Tipos_Pruebas_Xpath(){
+    public void CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista(){
+
+        //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//li[2]/a"))).click();
+        By localizadorBtnBuscar = By.xpath("//span[contains(text(),'Buscar')]");
+        WebElement btnBuscar = driver.findElement(localizadorBtnBuscar);
+        btnBuscar.click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")));
+        driver.findElement(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")).sendKeys("Metallica");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")));
+
+        Assert.assertEquals(driver.findElement(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")).getText(),"");
+
+    }
+
+    @Test
+
+    public void CP007_Inicio_Seccion_Facebook_Xpath(){
+        By localizadorBtnIniciarSesion = By.xpath("//span[contains(text(),'Iniciar sesión')]");
+        WebElement btnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
+        btnIniciarSesion.click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='facebook-login']"))).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Iniciar sesión en Facebook')]")));
+
+        Assert.assertEquals(driver.findElement(By.xpath("//div[contains(text(),'Iniciar sesión en Facebook')]")).getText(),"Iniciar sesión en Facebook");
 
 
     }
+
+    @Test
+
+    public void CP008_Inicio_Seccion_Apple_Xpath(){
+        By localizadorBtnIniciarSesion = By.xpath("//span[contains(text(),'Iniciar sesión')]");
+        WebElement btnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
+        btnIniciarSesion.click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='apple-login']"))).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='account_name_text_field']")));
+
+        Assert.assertEquals(driver.findElement(By.xpath("//input[@id='account_name_text_field']")).getText(),"");
+
+    }
+
+    @Test
+
+    public void CP009_Inicio_Seccion_Google_Xpath() {
+        By localizadorBtnIniciarSesion = By.xpath("//span[contains(text(),'Iniciar sesión')]");
+        WebElement btnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
+        btnIniciarSesion.click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='google-login']"))).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Iniciar sesión con Google')]")));
+
+        Assert.assertEquals(driver.findElement(By.xpath("//div[contains(text(),'Iniciar sesión con Google')]")).getText(),"Iniciar sesión con Google");
+    }
+
+    @Test
+
+    public void CP010_Inicio_Seccion_Google_Xpath(){
+
+        By localizadorBtnIniciarSesion = By.xpath("//span[contains(text(),'Iniciar sesión')]");
+        WebElement btnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
+        btnIniciarSesion.click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='phone-login']"))).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[contains(text(),'Introducir número de teléfono')]")));
+
+        Assert.assertEquals(driver.findElement(By.xpath("//p[contains(text(),'Introducir número de teléfono')]")).getText(),"Introducir número de teléfono");
+
+    }
+
+
 }
