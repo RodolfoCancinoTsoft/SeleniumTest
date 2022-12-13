@@ -45,7 +45,7 @@
       <recent name="C:\Users\rodolfo.cancino\Desktop\SeleniumPrimeroPasos\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CasosDePrueba.CP010_Inicio_Seccion_Google_Xpath">
+  <component name="RunManager" selected="TestNG.CasosDePrueba.CP008_Inicio_Seccion_Apple_Xpath">
     <configuration name="CasosDePrueba.CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrimeroPasos" />
       <extension name="coverage">
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CasosDePrueba.CP008_Inicio_Seccion_Apple_Xpath" />
+        <item itemvalue="TestNG.CasosDePrueba.CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista" />
         <item itemvalue="TestNG.CasosDePrueba.CP010_Inicio_Seccion_Google_Xpath" />
         <item itemvalue="TestNG.CasosDePrueba.CP009_Inicio_Seccion_Google_Xpath" />
-        <item itemvalue="TestNG.CasosDePrueba.CP008_Inicio_Seccion_Apple_Xpath" />
         <item itemvalue="TestNG.CasosDePrueba.CP007_Inicio_Seccion_Apple_Xpath" />
-        <item itemvalue="TestNG.CasosDePrueba.CP006_Tipos_Pruebas_Xpath_Buscar_Por_Artista" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

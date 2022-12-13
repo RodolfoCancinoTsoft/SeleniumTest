@@ -154,8 +154,9 @@ public class CasosDePrueba {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")));
         driver.findElement(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")).sendKeys("Metallica");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")));
+        wait.until((ExpectedConditions.presenceOfElementLocated(By.xpath("//h2[contains(text(),'Incluye a Metallica')]"))));
 
-        Assert.assertEquals(driver.findElement(By.xpath("//input[@placeholder='¿Qué te apetece escuchar?']")).getText(),"");
+        Assert.assertEquals(driver.findElement(By.xpath("//h2[contains(text(),'Incluye a Metallica')]")).getText(),"Incluye a Metallica");
 
     }
 
@@ -181,8 +182,9 @@ public class CasosDePrueba {
         btnIniciarSesion.click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='apple-login']"))).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='account_name_text_field']")));
+        wait.until((ExpectedConditions.presenceOfElementLocated(By.xpath("//h1[@class='si-container-title tk-intro  ']"))));
 
-        Assert.assertEquals(driver.findElement(By.xpath("//input[@id='account_name_text_field']")).getText(),"");
+        Assert.assertEquals(driver.findElement(By.xpath("//h1[@class='si-container-title tk-intro  ']")).getText(),"Usa tu ID de Apple para iniciar sesión en Spotify.");
 
     }
 
